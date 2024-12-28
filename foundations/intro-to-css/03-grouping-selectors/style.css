@@ -1,0 +1,14 @@
+.one{
+    background-color: black;
+    color: white;
+}
+
+.two{
+    background-color: yellow;
+}
+
+/* a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback */
+.one, .two{
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
